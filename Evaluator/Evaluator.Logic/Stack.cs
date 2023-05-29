@@ -16,7 +16,9 @@
 
         public bool IsFull => _top == N; // cuando _top sea igual a N IsFull es True de lo conytrario Falso
 
-        public void Pust(T item) // apilar
+        public T GetItemInTop() => _stack[_top - 1];    
+
+        public void Push(T item) // apilar
         {
             if (IsFull)
             {
@@ -32,7 +34,7 @@
             {
                 throw new Exception("Stack empty.");
             }
-            var item = _stack[_top];
+            var item = _stack[_top - 1];
             _top--;
             return item;
         }

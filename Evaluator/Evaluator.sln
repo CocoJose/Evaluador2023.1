@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evaluator.Logic", "Evaluator.Logic\Evaluator.Logic.csproj", "{189354ED-DAF2-41D1-8E57-C9BE25BCB362}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Evaluator.Logic", "Evaluator.Logic\Evaluator.Logic.csproj", "{189354ED-DAF2-41D1-8E57-C9BE25BCB362}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evaluator.UI.Console", "Evaluator.UI.Console\Evaluator.UI.Console.csproj", "{8DABE722-EB19-4FE5-A12B-AA159071AE02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Evaluator.UI.Console", "Evaluator.UI.Console\Evaluator.UI.Console.csproj", "{8DABE722-EB19-4FE5-A12B-AA159071AE02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evaluator.UI.Windows", "Evaluator.UI.Windows\Evaluator.UI.Windows.csproj", "{5B100FD2-F7F1-45C7-8130-49026D2C8C33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Evaluator.UI.Windows", "Evaluator.UI.Windows\Evaluator.UI.Windows.csproj", "{5B100FD2-F7F1-45C7-8130-49026D2C8C33}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
